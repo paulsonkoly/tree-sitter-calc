@@ -1,0 +1,827 @@
+[
+  {
+    "type": "array_lit",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_comma",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assignment",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "assignop",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "assignment",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "conditional",
+          "named": true
+        },
+        {
+          "type": "delim_cbrace",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obrace",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "loop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "returning",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "call",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_comma",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "conditional",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "elseblock",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "kwif",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "elseblock",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "kwelse",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "func_def",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arrowop",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "parameters",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "loop",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "kwwhile",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "parameters",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "delim_comma",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "program",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "block",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "returning",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "kwreturn",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "\n",
+    "named": false
+  },
+  {
+    "type": "addsubop",
+    "named": true
+  },
+  {
+    "type": "arrowop",
+    "named": true
+  },
+  {
+    "type": "assignop",
+    "named": true
+  },
+  {
+    "type": "bool_lit",
+    "named": true
+  },
+  {
+    "type": "delim_cbrace",
+    "named": true
+  },
+  {
+    "type": "delim_cbracket",
+    "named": true
+  },
+  {
+    "type": "delim_colon",
+    "named": true
+  },
+  {
+    "type": "delim_comma",
+    "named": true
+  },
+  {
+    "type": "delim_cparen",
+    "named": true
+  },
+  {
+    "type": "delim_obrace",
+    "named": true
+  },
+  {
+    "type": "delim_obracket",
+    "named": true
+  },
+  {
+    "type": "delim_oparen",
+    "named": true
+  },
+  {
+    "type": "divmulop",
+    "named": true
+  },
+  {
+    "type": "float_lit",
+    "named": true
+  },
+  {
+    "type": "int_lit",
+    "named": true
+  },
+  {
+    "type": "kwelse",
+    "named": true
+  },
+  {
+    "type": "kwif",
+    "named": true
+  },
+  {
+    "type": "kwreturn",
+    "named": true
+  },
+  {
+    "type": "kwwhile",
+    "named": true
+  },
+  {
+    "type": "logicop",
+    "named": true
+  },
+  {
+    "type": "relationalop",
+    "named": true
+  },
+  {
+    "type": "string_lit",
+    "named": true
+  },
+  {
+    "type": "unaryop",
+    "named": true
+  },
+  {
+    "type": "variable_name",
+    "named": true
+  }
+]
