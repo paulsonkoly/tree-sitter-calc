@@ -242,6 +242,10 @@
           "named": true
         },
         {
+          "type": "forloop",
+          "named": true
+        },
+        {
           "type": "func_def",
           "named": true
         },
@@ -275,6 +279,10 @@
         },
         {
           "type": "variable_name",
+          "named": true
+        },
+        {
+          "type": "yield",
           "named": true
         }
       ]
@@ -476,6 +484,101 @@
         },
         {
           "type": "kwelse",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "forloop",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "kwfor",
+          "named": true
+        },
+        {
+          "type": "larrowop",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
           "named": true
         }
       ]
@@ -725,6 +828,93 @@
     }
   },
   {
+    "type": "yield",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "addsubop",
+          "named": true
+        },
+        {
+          "type": "array_lit",
+          "named": true
+        },
+        {
+          "type": "bool_lit",
+          "named": true
+        },
+        {
+          "type": "call",
+          "named": true
+        },
+        {
+          "type": "delim_cbracket",
+          "named": true
+        },
+        {
+          "type": "delim_colon",
+          "named": true
+        },
+        {
+          "type": "delim_cparen",
+          "named": true
+        },
+        {
+          "type": "delim_obracket",
+          "named": true
+        },
+        {
+          "type": "delim_oparen",
+          "named": true
+        },
+        {
+          "type": "divmulop",
+          "named": true
+        },
+        {
+          "type": "float_lit",
+          "named": true
+        },
+        {
+          "type": "func_def",
+          "named": true
+        },
+        {
+          "type": "int_lit",
+          "named": true
+        },
+        {
+          "type": "kwyield",
+          "named": true
+        },
+        {
+          "type": "logicop",
+          "named": true
+        },
+        {
+          "type": "relationalop",
+          "named": true
+        },
+        {
+          "type": "string_lit",
+          "named": true
+        },
+        {
+          "type": "unaryop",
+          "named": true
+        },
+        {
+          "type": "variable_name",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "\n",
     "named": false
   },
@@ -793,6 +983,10 @@
     "named": true
   },
   {
+    "type": "kwfor",
+    "named": true
+  },
+  {
     "type": "kwif",
     "named": true
   },
@@ -802,6 +996,14 @@
   },
   {
     "type": "kwwhile",
+    "named": true
+  },
+  {
+    "type": "kwyield",
+    "named": true
+  },
+  {
+    "type": "larrowop",
     "named": true
   },
   {

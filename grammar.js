@@ -9,7 +9,7 @@ module.exports = grammar({
     delim_obrace: $ => "{",
     delim_cbrace: $ => "}",
     _statements: $ => prec.left(repeat1(seq($._statement, $._nl))),
-    _statement: $ => choice($.loop, $.conditional, $.returning, $.assignment, $._expression),
+    _statement: $ => choice($.loop, $.conditional, $.returning, $.assignment, $.forloop, $.yield, $._expression),
 
     _nl: $ => prec.left(repeat1("\n")),
 
@@ -23,6 +23,11 @@ module.exports = grammar({
     kwreturn: $ => "return",
     assignment: $ => seq($.variable_name, $.assignop, $._expression),
     assignop: $ => "=",
+    forloop: $ => seq($.kwfor, $.variable_name, $.larrowop, $._expression, $.block),
+    kwfor: $ => "for",
+    larrowop: $ => "<-",
+    yield: $ => seq($.kwyield, $._expression),
+    kwyield: $ => "yield",
 
     _expression: $ => $._relational,
 
