@@ -1,8 +1,10 @@
 module.exports = grammar({
   name: 'calc',
-  extras: $ => [" ", "\t"],
+  extras: $ => [" ", "\t", $.comment],
   rules: {
     program: $ => repeat(seq($.block, $._nl)),
+
+    comment: $ => seq(";", /[^\n]*/),
 
     block: $ => choice($._curlyblock, $._statement),
     _curlyblock: $ => seq($.delim_obrace, $._nl, $._statements, $.delim_cbrace),
@@ -40,10 +42,10 @@ module.exports = grammar({
     addsubop: $ => /[+\-]/,
     _addsub: $ => prec.left(seq($._divmul, repeat(seq($.addsubop, $._divmul)))),
 
-    divmulop: $ => /[*\/]/,
+    divmulop: $ => /[*\/%]/,
     _divmul: $ => prec.left(seq($._unary, repeat(seq($.divmulop, $._unary)))),
 
-    unaryop: $ => /[#\-]/,
+    unaryop: $ => /[#\-!]/,
     _unary: $ => choice(seq($.unaryop, $._index), $._index),
 
     _index: $ => prec.left(choice(

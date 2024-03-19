@@ -376,6 +376,11 @@
     }
   },
   {
+    "type": "comment",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "conditional",
     "named": true,
     "fields": {},
@@ -916,6 +921,10 @@
   },
   {
     "type": "\n",
+    "named": false
+  },
+  {
+    "type": ";",
     "named": false
   },
   {

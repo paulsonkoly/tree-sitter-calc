@@ -17,6 +17,19 @@
         ]
       }
     },
+    "comment": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": ";"
+        },
+        {
+          "type": "PATTERN",
+          "value": "[^\\n]*"
+        }
+      ]
+    },
     "block": {
       "type": "CHOICE",
       "members": [
@@ -397,7 +410,7 @@
     },
     "divmulop": {
       "type": "PATTERN",
-      "value": "[*\\/]"
+      "value": "[*\\/%]"
     },
     "_divmul": {
       "type": "PREC_LEFT",
@@ -430,7 +443,7 @@
     },
     "unaryop": {
       "type": "PATTERN",
-      "value": "[#\\-]"
+      "value": "[#\\-!]"
     },
     "_unary": {
       "type": "CHOICE",
@@ -827,6 +840,10 @@
     {
       "type": "STRING",
       "value": "\t"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "comment"
     }
   ],
   "conflicts": [],
